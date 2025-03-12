@@ -1,0 +1,30 @@
+@mixin align-left {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  @mixin align-center {
+    display: flex;
+    justify-content: center;
+  }
+  
+  @mixin align-right {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  @mixin align-top {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  @mixin align-middle {
+    display: flex;
+    align-items: center;
+  }
+  
+  @mixin align-bottom {
+    display: flex;
+    align-items: flex-end;
+  }
+  

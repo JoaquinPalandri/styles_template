@@ -1,0 +1,47 @@
+/* styles.scss */
+@import 'variables';
+@import 'mixins';
+
+body {
+    font-family: $font-family;
+    font-size: $font-size-base;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: $spacing-lg;
+    text-align: center;
+}
+
+/* 🎨 Botones sin colores predefinidos */
+.button {
+    @include align-center;
+    @include box-shadow("small");
+    padding: $spacing-sm $spacing-md;
+    border: none;
+    border-radius: $border-radius-md;
+    cursor: pointer;
+    font-size: $font-size-base;
+    display: inline-block;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+/* Variaciones de forma */
+.button-rounded {
+    border-radius: 50px;
+}
+
+.button-outline {
+    border: 2px solid;
+    background: transparent;
+}
+
+.button-large {
+    @include button-size($spacing-md $spacing-lg, $font-size-lg);
+}
+
+.button-small {
+    @include button-size($spacing-sm, $font-size-sm);
+}

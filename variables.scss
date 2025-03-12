@@ -1,0 +1,30 @@
+/* _variables.scss */
+
+// 🎨 Paleta de colores
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+$background-color: #f8f9fa;
+$text-color: #212529;
+$success-color: #28a745;
+$error-color: #dc3545;
+
+// 🖋️ Tipografía
+$font-family: 'Roboto', sans-serif;
+$font-size-base: 16px;
+$font-size-lg: 20px;
+$font-size-sm: 14px;
+
+// 📏 Espaciados
+$spacing-sm: 8px;
+$spacing-md: 16px;
+$spacing-lg: 24px;
+
+// 🏆 Sombras
+$box-shadow-sm: 0px 2px 4px rgba(0, 0, 0, 0.1);
+$box-shadow-md: 0px 4px 8px rgba(0, 0, 0, 0.15);
+$box-shadow-lg: 0px 6px 12px rgba(0, 0, 0, 0.2);
+
+// 📌 Bordes
+$border-radius-sm: 4px;
+$border-radius-md: 8px;
+$border-radius-lg: 12px;
